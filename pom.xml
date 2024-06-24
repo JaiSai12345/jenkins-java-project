@@ -7,7 +7,12 @@
 	<version>1.8</version>
 	<name>Java Home myweb</name>
 	<url>http://maven.apache.org</url>
-	
+	sourceCompatibility = '1.8'  // Update to 1.8 or later
+        targetCompatibility = '1.8'  // Update to 1.8 or later
+
+	<javac source="1.8" target="1.8">
+        </javac>
+
 	<properties>
 		<docker.image.prefix>kammana</docker.image.prefix>
 	</properties>	
